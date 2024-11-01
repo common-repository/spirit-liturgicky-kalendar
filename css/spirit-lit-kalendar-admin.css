@@ -1,0 +1,38 @@
+.tsslk-font-button {
+	text-decoration: none;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+    border: 0;
+	cursor: pointer;
+	background: none;
+	transition: box-shadow .1s linear;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 3px;
+    overflow: hidden;
+    border-radius: 3px;
+	color: #555d66;
+	outline: none;
+}
+
+.tsslk-font-button.selected {
+    color: #fff!important;
+    background: #555d66!important;	
+}
+
+.tsslk-font-button svg {
+	fill: currentColor;
+}
+
+.tsslk-font-button-div {
+	display: inline-block;
+	padding: 0px 5px;
+	vertical-align: middle;
+}
+
+.tsslk-font-block {
+	display: inline-block;
+	padding-left: 15px;
+}
+

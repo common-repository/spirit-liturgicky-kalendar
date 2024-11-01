@@ -1,0 +1,14 @@
+{
+	"name": "spirit-lit-kalendar/lk-block",
+	"title": "Liturgický kalendár",
+	"category": "widgets",
+	"icon": "book",
+	"description": "Denne aktualizovaný verš z liturgického kalendára podľa lc.kbs.sk.",
+	"textdomain": "spirit-lit-kalendar",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
